@@ -1,0 +1,126 @@
+/* css style sheet for flipkart clone project */
+
+/* importing fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 85px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+.search input {
+    height: 30px;
+    width: 30vw;
+    border-radius: 9px;
+    margin: 0 12px 0 40px;
+    padding-left: 10px;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+}
+
+.search button:hover {
+    font-weight: bold;
+} 
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.container{
+   min-height: calc(100vh - 12vh - 60px);
+}
+
+.all-products{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 75vw;
+}
+
+.card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.card-item{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 14px;
+}
+
+.cards{
+    display: flex;
+}
+
+img{
+    border-radius: 5px;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

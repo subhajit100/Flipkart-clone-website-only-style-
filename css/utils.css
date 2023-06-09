@@ -1,0 +1,31 @@
+/* utils.css will be used for all the utility styles even out of the project */
+
+/* This will make the container flex and all contents horizontally and vertically centered */
+.flex-all-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height: 28px;
+    padding: 4px;
+    background-color: var(--main-bg-color);
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.my-2{
+    margin: 10px 0;
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
